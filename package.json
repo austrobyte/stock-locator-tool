@@ -1,5 +1,5 @@
 {
-  "name": "@altiumnexar/stock-locator-tool",
+  "name": "@austrobyte/stock-locator-tool",
   "version": "1.1.1",
   "description": "Provides a react component for a stock locator tool powered by the Nexar API.",
   "main": "index.js",
