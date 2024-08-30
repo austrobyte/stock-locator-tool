@@ -51,9 +51,6 @@ export const runQuery = async (searchParameters: IncomingParams) => {
           description
           part {
             _cacheId
-            bestDatasheet {
-              url
-            }
             bestImage {
               url
             }

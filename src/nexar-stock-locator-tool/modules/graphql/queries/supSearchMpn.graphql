@@ -39,9 +39,6 @@ query mpnSearch(
       description
       part {
         _cacheId
-        bestDatasheet {
-          url
-        }
         bestImage {
           url
         }

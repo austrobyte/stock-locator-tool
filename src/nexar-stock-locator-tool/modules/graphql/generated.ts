@@ -4985,9 +4985,6 @@ export const MpnSearchDocument = gql`
       description
       part {
         _cacheId
-        bestDatasheet {
-          url
-        }
         bestImage {
           url
         }
