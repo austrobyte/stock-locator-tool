@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-let StockLocatorTool = require("@altiumnexar/stock-locator-tool/dist");
+let StockLocatorTool = require("@austrobyte/stock-locator-tool/dist");
 
 function App() {
   const [token, setToken] = useState();

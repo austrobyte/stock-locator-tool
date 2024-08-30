@@ -48,7 +48,7 @@ There a couple of methods to installing the tool outlined below. The most seamle
 
 ### NPM Package
 
-We have released the tool as an [NPM package](https://www.npmjs.com/package/@altiumnexar/stock-locator-tool). To install the package, use the command `npm i @altiumnexar/stock-locator-tool`. Then you can import `StockLocatorTool` into your project.
+We have released the tool as an [NPM package](https://www.npmjs.com/package/@austrobyte/stock-locator-tool). To install the package, use the command `npm i @austrobyte/stock-locator-tool`. Then you can import `StockLocatorTool` into your project.
 
 ### Drag and Drop
 
@@ -176,7 +176,7 @@ hideColumns={{
 
 Commits to the main branch will trigger a GitHub action that will automatically publish a minor release to the package. Alternatively, if you wish to manually publish a package please follow the below commands:
 
-You will need to be logged in to NPM and to be a member of the [altiumnexar](https://www.npmjs.com/settings/altiumnexar/packages). To login on the command line use the following command.
+You will need to be logged in to NPM and to be a member of the [austrobyte](https://www.npmjs.com/settings/austrobyte/packages). To login on the command line use the following command.
 
 ```
 npm login
