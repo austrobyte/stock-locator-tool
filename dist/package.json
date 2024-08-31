@@ -1,0 +1,38 @@
+{
+  "name": "@austrobyte/stock-locator-tool",
+  "version": "1.0.1",
+  "description": "Provides a react component for a stock locator tool powered by the Nexar API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "del dist",
+    "copy": "copy \"package.json\" \"dist\" && copy \"README.md\" \"dist\"",
+    "build": "tsc && npm run copy"
+  },
+  "keywords": [],
+  "author": "rowmur",
+  "license": "ISC",
+  "devDependencies": {
+    "@apollo/client": "^3.11.5",
+    "@types/country-list": "^2.1.4",
+    "@types/date-fns": "^2.6.0",
+    "@types/node": "^22.5.1",
+    "@types/prop-types": "^15.7.12",
+    "@types/react": "^18.3.5",
+    "@types/react-highlight-words": "^0.20.0",
+    "@types/styled-components": "^5.1.34",
+    "@types/webfontloader": "^1.6.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "country-list": "^2.3.0",
+    "date-fns": "^2.29.3",
+    "react-highlight-words": "^0.20.0",
+    "styled-components": "5.3.6"
+  },
+  "files": [
+    "dist"
+  ]
+}
