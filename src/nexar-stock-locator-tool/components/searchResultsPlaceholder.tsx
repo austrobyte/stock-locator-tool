@@ -1,5 +1,4 @@
 import React from "react";
-import { RoundNexarLogo } from "./icons/RoundNexarLogo";
 import styled from "styled-components";
 import { IncomingColors } from "../types";
 
@@ -30,9 +29,6 @@ const SearchResultsPlaceholder = ({ theme }: PlaceholderProps) => {
           })}
         </tbody>
       </PlaceholderTable>
-      <IconContainer>
-        <RoundNexarLogo />
-      </IconContainer>
     </PlaceholderContainer>
   );
 };

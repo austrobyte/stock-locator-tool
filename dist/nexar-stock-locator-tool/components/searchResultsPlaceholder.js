@@ -8,7 +8,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
-var RoundNexarLogo_1 = require("./icons/RoundNexarLogo");
 var styled_components_1 = __importDefault(require("styled-components"));
 var SearchResultsPlaceholder = function (_a) {
     var theme = _a.theme;
@@ -22,9 +21,7 @@ var SearchResultsPlaceholder = function (_a) {
                         backgroundColor: index % 2 === 0 ? theme.row1 : theme.row2,
                     } },
                     react_1.default.createElement("td", null)));
-            }))),
-        react_1.default.createElement(IconContainer, null,
-            react_1.default.createElement(RoundNexarLogo_1.RoundNexarLogo, null))));
+            })))));
 };
 var PlaceholderContainer = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  position: relative;\n  margin: 0 15px;\n"], ["\n  position: relative;\n  margin: 0 15px;\n"])));
 var IconContainer = styled_components_1.default.span(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  position: absolute;\n  left: calc(50% - 25.18px);\n  top: calc(50% - 25.47px);\n\n  svg {\n    width: 50.36px;\n    height: 50.94px;\n  }\n"], ["\n  position: absolute;\n  left: calc(50% - 25.18px);\n  top: calc(50% - 25.47px);\n\n  svg {\n    width: 50.36px;\n    height: 50.94px;\n  }\n"])));
